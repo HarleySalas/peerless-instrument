@@ -1,0 +1,133 @@
+@import "../../styles/variables.scss";
+
+.pageheading {
+  position: relative;
+  width: 100vw;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding: 9rem 2rem 2rem 2rem;
+  padding: 7rem 0rem 0 0rem;
+  margin-bottom: 9rem;
+
+  &__wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    // border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  &__img {
+    min-width: 100%;
+
+    animation: animateImage 2.72s ease forwards 1s;
+
+    &__animated {
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba($color-primary, 1);
+    animation: animateOverlay 2s ease forwards 1s;
+
+    // background-color: rgba($color-primary, 1);
+    // transition: all 2s ease;
+
+    // &--animated {
+    //   background-color: rgba($color-primary, 0.95);
+    // }
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__text {
+    color: $color-white;
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 0;
+    margin: 0 2rem 0 3.5rem;
+    opacity: 0;
+    animation: animateText 0.72s ease forwards 1.24s;
+  }
+
+  &__line {
+    background-color: $color-white;
+    height: 1px;
+    transition: all 2s ease;
+    &--short {
+      width: 0rem;
+      animation: animateShortLine 0.24s ease forwards 1s;
+    }
+
+    &--long {
+      width: 0rem;
+      animation: animateLongLine 1.24s ease forwards 1.24s;
+    }
+  }
+}
+
+@keyframes animateOverlay {
+  0% {
+    background-color: rgba($color-primary, 1);
+  }
+
+  100% {
+    background-color: rgba($color-primary, 0.95);
+    // background-color: red;
+  }
+}
+
+@keyframes animateShortLine {
+  0% {
+    width: 0rem;
+  }
+  100% {
+    width: 9rem;
+  }
+}
+
+@keyframes animateLongLine {
+  0% {
+    width: 0rem;
+  }
+
+  100% {
+    width: 28rem;
+  }
+}
+
+@keyframes animateText {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animateImage {
+  0% {
+    transform: scale(1.42);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

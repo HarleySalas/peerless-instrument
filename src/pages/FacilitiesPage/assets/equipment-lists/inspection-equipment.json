@@ -1,0 +1,132 @@
+[
+  {
+    "model": "MICRO-VU Model MD-1",
+    "type": "Optical Comparator",
+    "spec": "14&frac12;\" screen.",
+    "qty": "1"
+  },
+  {
+    "model": "DELTRONIC DH216",
+    "type": "Optical Comparator",
+    "spec": "16&frac12;\" screen.",
+    "qty": "1"
+  },
+  {
+    "model": "KENTRALL Rockwell",
+    "type": "Hardness Tester",
+    "qty": "1"
+  },
+  {
+    "model": "BAUSCH & LOMB",
+    "type": "Stereo Zoom Microscope",
+    "qty": "1"
+  },
+  {
+    "model": "NIKON",
+    "type": "Stereo Microscope",
+    "qty": "1"
+  },
+  {
+    "model": "Granite Surface Plate",
+    "type": "Grade A",
+    "spec": "Size 18&frac12;\" X 24&frac12;\".",
+    "qty": "3"
+  },
+  {
+    "model": "Granite Surface Plate",
+    "type": "Grade A",
+    "spec": "Size 36&frac12;\" X 48&frac12;\"."
+  },
+  {
+    "model": "CADILLAC PLA-Check",
+    "spec": "12&frac12;\"",
+    "qty": "1"
+  },
+  {
+    "model": "FEDERAL",
+    "type": "Surface Roughness Gauge",
+    "qty": "1"
+  },
+  {
+    "model": "PRATT & WHITNEY",
+    "type": "Super Micrometer",
+    "qty": " 1"
+  },
+  {
+    "model": "MITUTOYO MU",
+    "type": "Surface Finish Checker",
+    "qty": "2"
+  },
+  {
+    "model": "MITUTOYO Digi-matic",
+    "type": "Height Gauge",
+    "qty": "12"
+  },
+  {
+    "model": "BROWN & SHARPE",
+    "type": "Height Gauge",
+    "qty": "2"
+  },
+  {
+    "model": "MITUTOYO",
+    "type": "Precision Bench Centre",
+    "qty": "2"
+  },
+  {
+    "model": "MITUTOYO",
+    "type": "Gauge Block Set",
+    "spec": "Grade A+",
+    "qty": "3"
+  },
+  {
+    "model": "Waters",
+    "type": "Torque Watch Gauges",
+    "qty": "3"
+  },
+  {
+    "model": "BROWN & SHARPE",
+    "type": "Micrometer Comparator",
+    "qty": "4"
+  },
+  {
+    "model": "VARI-ROLL",
+    "type": "Dual Flank Gear Checking Stand",
+    "qty": "5"
+  },
+  {
+    "model": "K & O",
+    "type": "Dual Flank Gear Checking Stand",
+    "qty": "1"
+  },
+  {
+    "model": "HOMMEL WERKE",
+    "type": "Dual Flank Gear Checking Stand",
+    "qty": "1"
+  },
+  {
+    "model": "PARKSON",
+    "type": "Dual Flank Gear Checking Stand",
+    "qty": "1"
+  },
+  {
+    "model": "PEERLESS",
+    "type": "Dual Flank Gear Checking Stand",
+    "qty": "10"
+  },
+  {
+    "model": "VARI-ROLL",
+    "type": "Gear Checker with Red Liner",
+    "qty": "1"
+  },
+  {
+    "model": "BROWN & SHARPE 3M Micro-Val",
+    "type": "Co-ordinated Measuring Machine",
+    "spec": "X=14&frac12;\" Y=16&frac12;\" Z=12&frac12;\".",
+    "qty": "1"
+  },
+  {
+    "model": "PECO ND 300",
+    "type": "Analytical Gear Measurement System",
+    "qty": "1"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Northrop Grumman",
+    "component": "NorthropGrumman",
+    "link": "https://www.northropgrumman.com/"
+  },
+  {
+    "name": "Curtiss-Wright",
+    "component": "CurtissWright",
+    "link": "https://www.curtisswright.com/"
+  },
+  {
+    "name": "L3Harris",
+    "component": "L3Harris",
+    "link": "https://www.l3harris.com/"
+  },
+  {
+    "name": "Honeywell",
+    "component": "Honeywell",
+    "link": "https://www.honeywell.com/"
+  },
+  {
+    "name": "Safran",
+    "component": "Safran",
+    "link": "https://www.safran-group.com/"
+  },
+  {
+    "name": "Chemring Group",
+    "component": "ChemringGroup",
+    "link": "https://www.chemring.co.uk/"
+  },
+  {
+    "name": "Collins Aerospace",
+    "component": "CollinsAerospace",
+    "link": "https://www.collinsaerospace.com/"
+  },
+  {
+    "name": "Honeybee Robotics",
+    "component": "HoneybeeRobotics",
+    "link": "https://honeybeerobotics.com/"
+  },
+  {
+    "name": "MAS",
+    "component": "MAS",
+    "link": "https://www.mascomponents.com/"
+  },
+  {
+    "name": "MOOG",
+    "component": "Moog",
+    "link": "https://www.moog.com/"
+  }
+]

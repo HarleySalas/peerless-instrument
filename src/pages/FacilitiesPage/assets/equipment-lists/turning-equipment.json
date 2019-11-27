@@ -1,0 +1,84 @@
+[
+  {
+    "model": "HASS Model SL-20",
+    "type": "CNC Bar/Chucking Machine",
+    "spec": "4000 Max R.P.M. 2&frac12;\" Diameter Spindle, 8&frac12;\" capacity with chuck.",
+    "qty": "3"
+  },
+  {
+    "model": "IKEAGAI Model FX20II",
+    "type": "CNC Bar/Chucking Machine",
+    "spec": "4000 Max R.P.M. 1&frac58;\" thru spindle, 10&frac12;\" capacity with chuck.",
+    "qty": "1"
+  },
+  {
+    "model": "IKEGAI Model FX25Z",
+    "type": "CNC Bar/Chucking Machine",
+    "spec": "5000 Max R.P.M. 2&frac12\" thru spindle, 10&frac12;\" capacity with chuck.",
+    "qty": "1"
+  },
+  {
+    "model": "OKUMA Model LR10",
+    "type": "CNC Bar/Chucking Machine",
+    "spec": "6000 Max R.P.M. 1&frac58;\" thru spindle, 12&frac12;\" bar feeder",
+    "qty": "1"
+  },
+  {
+    "model": "DAINICHI Model F20",
+    "type": "CNC Bar/Chucking Machine",
+    "spec": "<strong>CHECK</strong> 4500 Max R.P.M. 2&frac12;\" thru spindle, 9&frac34;\" capacity with chuck tailstock and chip conveyor.",
+    "qty": "3"
+  },
+  {
+    "model": "<strong>CHECK</strong> DAINICHI Model F20 with Fanuc 18T and supercap functions",
+    "type": "CNC Bar/Chucking Machine",
+    "spec": "<strong>CHECK</strong> 4500 Max R.P.M. 2&frac12;\" thru spindle, 9&frac12;\" capacity with chuck tailstock and chip conveyor.",
+    "qty": "1"
+  },
+  {
+    "model": "MIYANO Model BNC-34T",
+    "type": "CNC Bar/Chucking Machine",
+    "spec": "5000 Max R.P.M. 1-5/16\" thru spindle, 5&frac12;\" capacity with chuck. Twin turret 3 axis 12&frac12;\" bar feeder.",
+    "qty": "1"
+  },
+  {
+    "model": "OMNITURN GT-75 JR Gangtype",
+    "type": "CNC Lathe",
+    "spec": "4000 R.P.M. 1-1/16\" capacity thru spindle.",
+    "qty": "2"
+  },
+  {
+    "model": "OMNITURN Mounted on HARDINGE Model HC",
+    "type": "CNC Lathe",
+    "spec": "3000 R.P.M. 1&frac16;\" capacity thru spindle.",
+    "qty": "2"
+  },
+  {
+    "model": "HARDINGE Model HC",
+    "type": "Precision Chucking Lathe",
+    "spec": "10 Spindle speeds from 125 to 3000 R.P.M.",
+    "qty": "3"
+  },
+  {
+    "model": "HARDINGE Model DM S59",
+    "type": "Precision Turret Lathe",
+    "spec": "16 Spindle speeds from 200 to 3500 R.P.M.",
+    "qty": "2"
+  },
+  {
+    "model": "REGAL LeBlond",
+    "type": "Engine Lathe",
+    "spec": "12 Spindle speeds from 45 to 1800 R.P.M. 1&frac16;\" thru spindle, 12&frac12;\" capacity with chuck.",
+    "qty": "1"
+  },
+  {
+    "model": "LEVIN Model AB1A",
+    "type": "Precision Jewelers Lathe",
+    "qty": "1"
+  },
+  {
+    "model": "SAMSUNG SL25ASY-11",
+    "type": "CNC Turning Center with bar feeder",
+    "qty": "2"
+  }
+]

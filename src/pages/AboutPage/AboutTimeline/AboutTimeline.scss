@@ -1,0 +1,15 @@
+@import "../../../styles/variables.scss";
+
+.abouttimeline {
+  background-color: $color-primary;
+  // margin-top: 8rem;
+  // margin-bottom: 8rem;
+  padding: 5rem 9rem;
+  // margin: 7rem 0rem 7rem 0rem;
+  border-radius: 3px;
+
+  &__wrapper {
+    background-color: #efefef;
+    padding: 3rem 0;
+  }
+}

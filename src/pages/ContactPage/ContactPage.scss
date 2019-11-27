@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+
+.contactpage {
+  background-color: $color-primary;
+  height: 95vh;
+  width: 95vw;
+  margin: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-weight: 300;
+  }
+}

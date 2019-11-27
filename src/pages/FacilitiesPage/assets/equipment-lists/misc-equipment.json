@@ -1,0 +1,102 @@
+[
+  {
+    "model": "SUNNENN Model MBB 1600",
+    "type": "Honing Machine",
+    "qty": "2"
+  },
+  {
+    "model": "E.F. HAGER & SONS",
+    "type": "Diamond Wheel Tool Grinder",
+    "qty": "1"
+  },
+  {
+    "model": "DO-ALL Model C-916-A",
+    "type": "Automatic Production Cut-off Saw",
+    "qty": "1"
+  },
+  {
+    "model": "DO-ALL Model C-5A",
+    "type": "Automatic Productionn Cut-off Saw",
+    "qty": "1"
+  },
+  {
+    "model": "HAUSER Type 241",
+    "type": "Burnishing Machine",
+    "qty": "2"
+  },
+  {
+    "model": "EMB Model DK10",
+    "type": "Burnishing Machine",
+    "qty": "1"
+  },
+  {
+    "model": "EMB Model DO44",
+    "type": "Burnishing Machine",
+    "qty": "1"
+  },
+  {
+    "model": "BALDOR",
+    "type": "Deburring and Buffing Units",
+    "qty": "2"
+  },
+  {
+    "model": "BALDOR Model 500",
+    "type": "Pedestal Grinder",
+    "qty": "1"
+  },
+  {
+    "model": "CRAFTSMAN Model 257",
+    "type": "Bench Grinder",
+    "qty": "1"
+  },
+  {
+    "model": "CRAFTSMAN Model 397",
+    "type": "Bench Grinder",
+    "qty": "2"
+  },
+  {
+    "model": "CRAFTSMAN",
+    "type": "Belt and Disk Sander",
+    "qty": "1"
+  },
+  {
+    "model": "GREENWERD Model 2",
+    "type": "Arbor Press",
+    "qty": "1"
+  },
+  {
+    "model": "DAYTON Model 3Z915",
+    "type": "15 Ton Hydraulic Press",
+    "qty": "1"
+  },
+  {
+    "model": "EMPIRE Reclaim",
+    "type": "Blast Cabinet",
+    "qty": "1"
+  },
+  {
+    "model": "AGATHON",
+    "type": "Diamond Wheel Tool Grinder",
+    "qty": "1"
+  },
+  {
+    "model": "LaPOINTE #2",
+    "type": "Broaching Machine",
+    "qty": "1"
+  },
+  {
+    "model": "OPTIMA",
+    "type": "Drill Sharpener",
+    "qty": "1"
+  },
+  {
+    "model": "Cuttermaster",
+    "type": "End Mill & Tool Sharpener",
+    "qty": "1"
+  },
+  {
+    "model": "ALMCO Model VB-1615",
+    "type": "Vibratory Tumbler",
+    "qty": "1"
+  }
+]

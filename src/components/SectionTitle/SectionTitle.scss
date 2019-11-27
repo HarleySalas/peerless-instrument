@@ -1,0 +1,68 @@
+@import "../../styles/variables.scss";
+
+.sectiontitle {
+  width: 100%;
+  margin-bottom: 9rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  &--mb2 {
+    margin-bottom: 2rem;
+  }
+
+  &--mb11 {
+    margin-bottom: 11rem;
+  }
+
+  &--center {
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: 2.72rem;
+    font-weight: 500;
+    letter-spacing: 0.42rem;
+    text-transform: uppercase;
+    // margin-bottom: 0.42rem;
+    margin: 0 2rem 0.42rem 2rem;
+
+    &--lh0 {
+      line-height: 0;
+    }
+
+    &--primary {
+      color: $color-primary;
+    }
+
+    &--white {
+      color: $color-white;
+    }
+  }
+
+  &__line {
+    height: 0.1rem;
+
+    &--left1 {
+      width: 5%;
+    }
+
+    &--left2 {
+      width: 20%;
+    }
+
+    &--center {
+      width: 15%;
+      height: 0.1rem;
+    }
+
+    &--primary {
+      background-color: $color-primary;
+    }
+
+    &--white {
+      background-color: $color-white;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../styles/variables.scss";
+
+.facilitiespage {
+  &__building-container {
+    align-items: center;
+    justify-content: center;
+    padding: 11rem 0;
+  }
+  &__building-outline {
+    &-wrapper {
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      opacity: 0;
+      transform: translateX(5rem);
+      transition: all 1s ease 0.24s;
+
+      &--animated {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    fill: none;
+    stroke: $color-primary;
+    stroke-width: 1.42;
+    width: 50rem;
+    width: 80%;
+    // stroke-dasharray: 1400;
+    // stroke-dashoffset: 1400;
+    stroke-dasharray: 700;
+    stroke-dashoffset: 600;
+    transition: all 4.42s ease 0.24s;
+
+    &--animated {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  &__building-text {
+    margin: 0;
+    width: 40%;
+
+    opacity: 0;
+    transform: translateX(-5rem);
+    transition: all 1s ease 0.24s;
+
+    &--animated {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  &__tour {
+    width: 100%;
+    text-align: center;
+  }
+}

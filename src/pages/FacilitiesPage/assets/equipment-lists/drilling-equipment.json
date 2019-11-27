@@ -1,0 +1,53 @@
+[
+  {
+    "model": "POWER-MATIC Model 1150",
+    "type": "Drill Press",
+    "spec": "Individually motorized spindles.",
+    "qty": "3"
+  },
+  {
+    "model": "CLAUSING Model 1687",
+    "type": "Precision Drill Press",
+    "spec": "Individually motorized spindles.",
+    "qty": "2"
+  },
+  {
+    "model": "DELETA ROCKWELL Model 100",
+    "type": "Drill Press",
+    "spec": "Individually motorized spindles.",
+    "qty": "2"
+  },
+  {
+    "model": "DELTA ROCKWELL Model 50",
+    "type": "Drill Press",
+    "qty": "3"
+  },
+  {
+    "model": "WOHLIP Model 505",
+    "type": "High Speed Drill Press",
+    "spec": "11,000 Max R.P.M.",
+    "qty": "1"
+  },
+  {
+    "model": "DUMORE Model 37301",
+    "type": "High Speed Drill Press",
+    "spec": "21,000 Max R.P.M.",
+    "qty": "1"
+  },
+  {
+    "model": "WALKER Turner",
+    "type": "Precision Drill Press",
+    "spec": "Six individually motorized spindles.",
+    "qty": "2"
+  },
+  {
+    "model": "PROCUNER Model 1E",
+    "type": "Tapping Heads",
+    "qty": "2"
+  },
+  {
+    "model": "Procuner Model 2E",
+    "type": "Tapping Heads",
+    "qty": "1"
+  }
+]

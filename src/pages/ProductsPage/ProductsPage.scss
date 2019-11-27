@@ -1,0 +1,118 @@
+@import "../../styles/variables.scss";
+
+.productspage {
+  &__gears-outline {
+    width: 27rem;
+    margin-bottom: 5rem;
+    fill: transparent;
+    stroke: $color-primary;
+    stroke-width: 1.42;
+    stroke-dasharray: 1400;
+    stroke-dashoffset: 1400;
+
+    animation: drawGears 5s ease forwards 1s;
+  }
+
+  &__section {
+    position: relative;
+    width: 100%;
+    margin: 7rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &--last {
+      margin: 7rem 0 0 0;
+    }
+  }
+
+  &__gear-types {
+    width: calc(100% - 4rem);
+    background-color: $color-primary;
+    padding: 7rem 0;
+    border-radius: 3px;
+
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__title {
+      width: 100%;
+      font-size: 3rem;
+      text-transform: uppercase;
+      text-align: center;
+      color: $color-white;
+      font-weight: 400;
+      letter-spacing: 0.42rem;
+      // margin: 7rem 0;
+      margin-bottom: 7rem;
+    }
+
+    &__type-wrapper {
+      width: 34%;
+      height: 5rem;
+      outline: 1px solid $color-white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1.42rem;
+    }
+
+    &__type {
+      line-height: 1;
+      color: $color-white;
+    }
+  }
+
+  &__machine-container {
+    display: flex;
+    margin: 5rem 0 7rem 0;
+  }
+
+  &__machine-left {
+    width: 60%;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__machine-right {
+    padding: 2rem 2rem 2rem 7rem;
+    width: 40%;
+  }
+
+  &__machine-lathe {
+    fill: transparent;
+    stroke: $color-primary;
+    stroke-width: 1.42;
+  }
+
+  &__paragraph {
+    transform: translateY(3rem);
+    opacity: 0;
+    transition: all 1.42s ease;
+
+    &--animated {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    &--delay-1 {
+      transition-delay: 0.72s;
+    }
+
+    &--delay-2 {
+      transition-delay: 1.24s;
+    }
+  }
+}
+
+@keyframes drawGears {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

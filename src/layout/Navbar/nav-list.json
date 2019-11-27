@@ -1,0 +1,22 @@
+[
+  {
+    "name": "About",
+    "link": "/about",
+    "exact": true
+  },
+  {
+    "name": "Products",
+    "link": "/products",
+    "exact": true
+  },
+  {
+    "name": "Facilities",
+    "link": "/facilities",
+    "exact": true
+  },
+  {
+    "name": "Contact",
+    "link": "/contact",
+    "exact": true
+  }
+]

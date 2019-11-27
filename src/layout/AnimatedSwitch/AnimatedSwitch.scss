@@ -1,0 +1,37 @@
+//SLIDE LEFT
+.slideLeft-enter {
+  transform: translateX(100%);
+  transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.slideLeft-enter-active {
+  transform: translateX(0);
+}
+
+.slideLeft-exit {
+  transform: translateY(0);
+  transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.slideLeft-exit-active {
+  transform: translateX(-100%);
+}
+
+//SLIDE RIGHT
+.slideRight-enter {
+  transform: translateX(-100%);
+  transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.slideRight-enter-active {
+  transform: translateX(0);
+}
+
+.slideRight-exit {
+  transform: translateX(0);
+  transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.slideRight-exit-active {
+  transform: translateX(100%);
+}

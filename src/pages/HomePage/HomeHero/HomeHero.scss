@@ -1,0 +1,86 @@
+@import "../../../styles/variables.scss";
+
+.homehero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    width: calc(100% - 5rem);
+    height: calc(100% - 5rem);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+
+    video {
+      min-width: 100%;
+      min-height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1.42);
+      transition: transform 2s ease;
+    }
+
+    &--animated {
+      video {
+        transform: translate(-50%, -50%) scale(1);
+      }
+    }
+  }
+
+  &__overlay {
+    position: relative;
+    background-color: rgba($color-primary, 1);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    transition: all 2s ease;
+
+    &--animated {
+      background-color: rgba($color-primary, 0.95);
+    }
+  }
+
+  &__heading {
+    color: $color-white;
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
+    line-height: 0.8;
+
+    transform: translateX(10rem);
+    opacity: 0;
+    transition: all 2s ease;
+
+    &--animated {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  &__subheading {
+    // color: $color-white;
+    // text-transform: uppercase;
+
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 300;
+
+    transform: translateX(-10rem);
+    opacity: 0;
+    transition: all 2s ease;
+
+    &--animated {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}

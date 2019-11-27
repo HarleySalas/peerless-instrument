@@ -1,0 +1,96 @@
+[
+  {
+    "model": "GLEASON Model 102",
+    "type": "Coniflex Straight Bevel Gear Cutter",
+    "qty": "1"
+  },
+  {
+    "model": "GLEASON Model 2-A",
+    "type": "Coniflex Straight Bevel Gear Cutter",
+    "qty": "5"
+  },
+  {
+    "model": "FELLOWS Model 3-2",
+    "type": "Fine Pitch Gear Shaper",
+    "qty": "4"
+  },
+  {
+    "model": "FELLOWS Model 3",
+    "type": "Fine Pitch Gear Shaper",
+    "qty": "2"
+  },
+  {
+    "model": "FELLOWS Model 7",
+    "type": "Gear Shaper",
+    "qty": "1"
+  },
+  {
+    "model": "BARBER Coleman Model 6-10",
+    "type": "Gear Hobber",
+    "qty": "5"
+  },
+  {
+    "model": "LAMBERT Model 75",
+    "type": "Gear and Pinion Hobbber",
+    "qty": "8"
+  },
+  {
+    "model": "LAMBERT Model 751",
+    "type": "Gear and Pinion Hobber",
+    "qty": "1"
+  },
+  {
+    "model": "LAMBERT Model 132",
+    "type": "Gear and Pinion Hobber",
+    "qty": "1"
+  },
+  {
+    "model": "MIKRON Model 79",
+    "type": "Gear and Pinion Hobber",
+    "qty": "1"
+  },
+  {
+    "model": "MIKRON Model 102",
+    "type": "Gear and Pinion Hobber"
+  },
+  {
+    "model": "MICHIGAN Model 861-4B",
+    "type": "Gear Shaver",
+    "qty": "1"
+  },
+  {
+    "model": "GLEASON Model J2SE",
+    "type": "Cutter Sharpener",
+    "qty": "1"
+  },
+  {
+    "model": "BARBER Coleman Model 4-4",
+    "type": "Hob Sharpener",
+    "qty": "1"
+  },
+  {
+    "model": "WALTHAM Standard",
+    "type": "Thread Milling Machine",
+    "qty": "2"
+  },
+  {
+    "model": "MIKRON A 60/0",
+    "type": "Hob Sharpener",
+    "qty": 1
+  },
+  {
+    "model": "MITSUBISHI SE25A",
+    "type": "CNC Gear Shaper",
+    "qty": 1
+  },
+  {
+    "model": "MIKRON 102.5",
+    "type": "Hobbing Machine",
+    "qty": "1"
+  },
+  {
+    "model": "KEOPFER Model 160",
+    "type": "CNC Gear Hobber",
+    "qty": "1"
+  }
+]

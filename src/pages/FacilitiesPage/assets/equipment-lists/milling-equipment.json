@@ -1,0 +1,62 @@
+[
+  {
+    "model": "HAAS VF-3B",
+    "type": "CNC Vertical Milling Center",
+    "spec": "7500 R.P.M. 20 tool changers X=40&frac12;\" Y=20&frac12;\" Z=25&frac12;\"",
+    "qty": "1"
+  },
+  {
+    "model": "HAAS VF-1B",
+    "type": "CNC Vertical Milling Center",
+    "spec": "7500 R.P.M. 20 Tool changer X=20&frac12;\" Y=16&frac12;\" Z=25&frac12;\" with programmable 4th axis indexers.",
+    "qty": "1"
+  },
+  {
+    "model": "OKK Model PCV-40",
+    "type": "CNC Vertical Milling Center",
+    "spec": "6000 R.P.M. 18 Tool changer X=22&frac12;\" Y=16&frac12;\" Z=16&frac12;\" with programmable 4th axis indexers.",
+    "qty": "1"
+  },
+  {
+    "model": "EAGLE 400",
+    "type": "CNC Knee Mill",
+    "spec": "4200 R.P.M. X=23&frac12;\" Y=11&frac12;\" Z=17&frac12;\"",
+    "qty": "1"
+  },
+  {
+    "model": "CENTURY Model TM2",
+    "type": "Vertical Milling Machine",
+    "spec": "42&frac12;\" Table, X-Y Digital Readout",
+    "qty": "1"
+  },
+  {
+    "model": "MOORE",
+    "type": "Precision Jig Borer",
+    "spec": "14&frac12;\" Table.",
+    "qty": "1"
+  },
+  {
+    "model": "BRIDGEPORT Model 1311",
+    "type": "Vertical Milling Machine",
+    "spec": "36&frac12;\" Table.",
+    "qty": "1"
+  },
+  {
+    "model": "TOYAMA TMC-40V",
+    "type": "Vertical Milling Center",
+    "spec": "6000 R.P.M. 25 Tool Changer X=20&frac12;\" Y=16&frac12;\" Z=20&frac12;\"",
+    "qty": "1"
+  },
+  {
+    "model": "FANUC Robodrill Mate",
+    "qty": "1"
+  },
+  {
+    "model": "LEADWELL V-32iF with FANUC OiMF 10.4\" Monitor",
+    "qty": "1"
+  },
+  {
+    "model": "RENISHAW OMP-40 Part Probe",
+    "qty": "1"
+  }
+]

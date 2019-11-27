@@ -1,0 +1,186 @@
+.loader {
+  position: fixed;
+  z-index: 9998;
+  background-color: #efefef;
+  width: 100vw;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.loader__animateOut {
+  -webkit-animation: animateLoaderOut 1.24s cubic-bezier(0.86, 0, 0.07, 1) forwards .24s;
+  -o-animation: animateLoaderOut 1.24s cubic-bezier(0.86, 0, 0.07, 1) forwards .24s;
+  -moz-animation: animateLoaderOut 1.24s cubic-bezier(0.86, 0, 0.07, 1) forwards .24s;
+  animation: animateLoaderOut 1.24s cubic-bezier(0.86, 0, 0.07, 1) forwards .24s;
+}
+
+.loader__background {
+  position: fixed;
+  z-index: 9999;
+  background-color: #004393;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  transform: translateY(-100%);
+  -webkit-animation: loaderBackground 1.24s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  -o-animation: loaderBackground 1.24s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  -moz-animation: loaderBackground 1.24s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  animation: loaderBackground 1.24s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+}
+
+.loader__gear-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(0deg);;
+  transform: translate(-50%, -50%) rotate(0deg);
+  width: 200px;
+  height: 200px;
+  -webkit-animation: loaderSpinGear 30s linear infinite;
+  -o-animation: loaderSpinGear 30s linear infinite;
+  -moz-animation: loaderSpinGear 30s linear infinite;
+  animation: loaderSpinGear 30s linear infinite;
+}
+
+.loader__gear-inner-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 124px;
+  height: 124px;
+}
+
+@-webkit-keyframes animateLoaderOut {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  to {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+@-o-keyframes animateLoaderOut {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@-moz-keyframes animateLoaderOut {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes animateLoaderOut {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  to {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+@-webkit-keyframes loaderBackground {
+  from {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes loaderBackground {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes loaderBackground {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes loaderBackground {
+  from {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes loaderSpinGear {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@-o-keyframes loaderSpinGear {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@-moz-keyframes loaderSpinGear {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes loaderSpinGear {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

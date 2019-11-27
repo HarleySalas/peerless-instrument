@@ -1,0 +1,43 @@
+[
+  {
+    "model": "MYFORD Model MG 12",
+    "type": "CNC Cylindrical Grinder",
+    "spec": "5&frac12;\" Max diameter, 12&frac12;\" max long.",
+    "qty": "1"
+  },
+  {
+    "model": "MYFORD Model MG 12-HPH",
+    "type": "Automatic Cylindrical Grinder",
+    "spec": "5&frac12;\" Max diameter 11&frac;\" max long.",
+    "qty": "2"
+  },
+  {
+    "model": "MYFORD Model MG 12-HAC",
+    "type": "Automatic Cylindrical Grinder",
+    "spec": "5&frac12;\" Max diamter, 11&frac12;\" max long.",
+    "qty": "2"
+  },
+  {
+    "model": "MYFORD Model 12M",
+    "type": "Cylinder Grinder, Internal Grinding Attachment",
+    "qty": "1"
+  },
+  {
+    "model": "LANDIS Model 41325",
+    "type": "Cylindrical Grinder",
+    "spec": "5&frac12;\" Max diameter, 10&frac12;\" max long.",
+    "qty": "1"
+  },
+  {
+    "model": "THOMPSON Model 123",
+    "type": "Surface Grinder",
+    "spec": "8&frac12;\" X 12&frac12;\" table.",
+    "qty": "1"
+  },
+  {
+    "model": "SANFORD Model 65",
+    "type": "Surface Grinder",
+    "spec": "6&frac12;\" X 8&frac12;\" table.",
+    "qty": "1"
+  }
+]
