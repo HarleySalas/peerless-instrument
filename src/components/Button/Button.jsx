@@ -9,6 +9,7 @@ const Button = props => {
   ${props.btnStyle === "primary" && "button--primary"}
   ${props.btnStyle === "white" && "button--white"}
   ${props.btnSize === "md" && "button--md"}
+  ${props.startHidden && "button--hidden"}
   ${props.addClass && props.addClass}
   `;
 

@@ -1,3 +1,13 @@
+@import "../../styles/animations.scss";
+
 .pagecta {
   margin-top: 7rem;
+
+  &__container {
+    opacity: 0;
+
+    &--animated {
+      animation: fadeUp 1s ease forwards;
+    }
+  }
 }

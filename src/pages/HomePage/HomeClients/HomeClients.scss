@@ -1,4 +1,5 @@
 @import "../../../styles/variables.scss";
+@import "../../../styles/animations.scss";
 
 .homeclients {
   position: relative;
@@ -15,6 +16,13 @@
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     z-index: 1;
+
+    height: 0;
+    transition: all 1s ease;
+
+    &--animated {
+      height: 11rem;
+    }
   }
 
   &__container {
@@ -24,6 +32,11 @@
     flex-wrap: wrap;
     border-radius: 3px;
     padding-bottom: 11rem;
+    opacity: 0;
+
+    &--animated {
+      animation: fadeUp 1s ease forwards;
+    }
   }
 
   &__heading {
@@ -53,6 +66,10 @@
     text-align: center;
     margin: 6rem auto 0 auto;
     width: 72%;
-    opacity: 0.72;
+    opacity: 0;
+
+    &--animated {
+      animation: fadeUp 1s ease forwards;
+    }
   }
 }

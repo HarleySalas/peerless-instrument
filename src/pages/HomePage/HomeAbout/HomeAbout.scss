@@ -1,5 +1,5 @@
 @import "../../../styles/variables.scss";
-
+@import "../../../styles/animations.scss";
 .homeabout {
   width: 100vw;
   min-height: 100vh;
@@ -7,10 +7,14 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  // padding: 11rem 0;
-  // padding: 0 0 11rem 0;
 
   &__wrapper {
+    opacity: 0;
+
+    &--animated {
+      animation: fadeUp 1s ease forwards;
+    }
+
     &--1 {
       width: 40%;
       height: 33rem;

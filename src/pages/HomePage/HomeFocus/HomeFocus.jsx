@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useContext, useState, useRef } from "react";
 
 import "./HomeFocus.scss";
 
@@ -13,9 +13,27 @@ import { ReactComponent as MachineIcon } from "./assets/machine-icon.svg";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import Button from "../../../components/Button/Button";
 
+import { ScrollContext } from "../../../context/ScrollContext";
+
 const HomeFocus = () => {
+  const scrollHeight = useContext(ScrollContext);
+  const containerRef = useRef(null);
+  const [animated, setAnimated] = useState(false);
+
+  const animatePosition = ref => {
+    return ref.current.offsetTop - window.innerHeight * 0.9;
+  };
+
+  useEffect(() => {
+    if (!animated) {
+      if (scrollHeight[0] > animatePosition(containerRef)) {
+        setAnimated(true);
+      }
+    }
+  }, [scrollHeight, animated]);
+
   return (
-    <section className="homefocus">
+    <section className={`homefocus ${animated && "homefocus--animated"}`} ref={containerRef}>
       <div className="homefocus__container">
         <div className="container container__flex">
           <SectionTitle title="Our Focus" center white />

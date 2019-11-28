@@ -1,9 +1,15 @@
 @import "../../../styles/variables.scss";
+@import "../../../styles/animations.scss";
 
 .homefocus {
   width: 100vw;
   display: flex;
   justify-content: center;
+  opacity: 0;
+
+  &--animated {
+    animation: fadeUp 1s ease forwards;
+  }
 
   &__container {
     width: calc(100vw - 5rem);
