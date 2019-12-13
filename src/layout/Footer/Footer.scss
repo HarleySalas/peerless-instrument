@@ -8,14 +8,48 @@
 
   &__container {
     align-items: center;
+
+    @media screen and(min-width: 700px) {
+      align-items: flex-start;
+    }
+
+    @media screen and(min-width: 1200px) {
+      align-items: center;
+    }
   }
 
   &__column {
-    width: 25%;
-    height: 18rem;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 3rem;
+    text-align: center;
+
+    &:nth-of-type(1) {
+      margin-top: 5rem;
+
+      @media screen and(min-width: 700px) {
+        margin-bottom: 2rem;
+      }
+
+      @media screen and(min-width: 1200px) {
+        margin-top: 5rem; //when layout switches
+        margin-bottom: 0;
+      }
+    }
+
+    &:nth-of-type(2),
+    &:nth-of-type(3),
+    &:nth-of-type(4) {
+      @media screen and(min-width: 700px) {
+        width: 33%;
+      }
+
+      @media screen and(min-width: 1200px) {
+        width: 25%;
+      }
+    }
 
     &:nth-child(1) &__wrapper {
       align-self: center;
@@ -30,7 +64,16 @@
     }
 
     &:nth-child(4) &__wrapper {
-      align-self: flex-end;
+      @media screen and(min-width: 1200px) {
+        align-self: flex-end;
+      }
+    }
+
+    @media screen and(min-width: 1200px) {
+      width: 25%;
+      height: 18rem;
+      margin-top: 5rem;
+      text-align: left;
     }
 
     &__wrapper {
@@ -95,7 +138,7 @@
 
   &__bottom {
     width: 100%;
-    margin: 5rem 0 2.42rem 0;
+    margin: 3rem 0 2.42rem 0;
 
     // &__line {
     //   width: 100%;
@@ -104,12 +147,20 @@
     //   margin-bottom: 2rem;
     // }
 
+    @media screen and(min-width: 1200px) {
+      margin: 5rem 0 2.42rem 0;
+    }
+
     &__copyright {
       width: 100%;
       font-weight: 300;
       letter-spacing: 0.11rem;
-      text-align: left;
+      text-align: center;
       font-size: 1.7rem;
+
+      @media screen and(min-width: 1200px) {
+        text-align: left;
+      }
     }
 
     &__link {
