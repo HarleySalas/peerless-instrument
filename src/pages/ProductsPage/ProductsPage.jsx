@@ -86,7 +86,7 @@ const ProductsPage = () => {
           </div>
         </div>
         <div className="container">
-          <p>
+          <p className="productspage__last-paragraph">
             Our quality personnel work to AS 9100 standards, which ensures that the product we manufacture meets your requirements. This gives
             you, the customer, total confidence to put your trust in Peerless Instrument Co., Inc.
           </p>

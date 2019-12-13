@@ -3,13 +3,19 @@
 .pageheading {
   position: relative;
   width: 100vw;
-  height: 35vh;
+  height: 25vh;
+  min-height: 15rem;
   display: flex;
   align-items: center;
   justify-content: center;
   // padding: 9rem 2rem 2rem 2rem;
-  padding: 7rem 0rem 0 0rem;
+  padding: 5rem 0 0 0;
   margin-bottom: 9rem;
+
+  @media screen and(min-width: 800px) {
+    height: 35vh;
+    padding: 7rem 0 0 0;
+  }
 
   &__wrapper {
     position: relative;
@@ -23,7 +29,11 @@
   }
 
   &__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     min-width: 100%;
+    transform: translate(-50%, -50%) scale(1.42);
 
     animation: animateImage 2.72s ease forwards 1s;
 
@@ -57,11 +67,35 @@
   &__text {
     color: $color-white;
     font-weight: 300;
-    font-size: 4rem;
+    font-size: 2.4rem;
+    letter-spacing: 0.24rem;
     line-height: 0;
-    margin: 0 2rem 0 3.5rem;
+    margin: 0 1.42rem 0 1.42rem;
     opacity: 0;
     animation: animateText 0.72s ease forwards 1.24s;
+
+    @media screen and(min-width: 450px) {
+      font-size: 2.7rem;
+      letter-spacing: 0.42rem;
+    }
+
+    @media screen and(min-width: 550px) {
+      font-size: 2.9rem;
+    }
+
+    @media screen and(min-width: 700px) {
+      font-size: 3.2rem;
+    }
+
+    @media screen and(min-width: 900px) {
+      font-size: 3.6rem;
+    }
+
+    @media screen and(min-width: 1400px) {
+      font-size: 4rem;
+      margin: 0 1.72rem 0 3.24rem;
+      letter-spacing: 1.42rem;
+    }
   }
 
   &__line {
@@ -71,11 +105,27 @@
     &--short {
       width: 0rem;
       animation: animateShortLine 0.24s ease forwards 1s;
+
+      @media screen and(min-width: 600px) {
+        animation: animateShortLine2 0.24s ease forwards 1s;
+      }
+
+      @media screen and(min-width: 900px) {
+        animation: animateShortLine3 0.24s ease forwards 1s;
+      }
     }
 
     &--long {
       width: 0rem;
       animation: animateLongLine 1.24s ease forwards 1.24s;
+
+      @media screen and(min-width: 600px) {
+        animation: animateLongLine2 1.24s ease forwards 1.24s;
+      }
+
+      @media screen and(min-width: 900px) {
+        animation: animateLongLine3 1.24s ease forwards 1.24s;
+      }
     }
   }
 }
@@ -96,11 +146,50 @@
     width: 0rem;
   }
   100% {
+    width: 3rem;
+  }
+}
+
+@keyframes animateShortLine2 {
+  0% {
+    width: 0rem;
+  }
+  100% {
+    width: 5rem;
+  }
+}
+
+@keyframes animateShortLine3 {
+  0% {
+    width: 0rem;
+  }
+
+  100% {
     width: 9rem;
   }
 }
 
 @keyframes animateLongLine {
+  0% {
+    width: 0rem;
+  }
+
+  100% {
+    width: 9rem;
+  }
+}
+
+@keyframes animateLongLine2 {
+  0% {
+    width: 0rem;
+  }
+
+  100% {
+    width: 18rem;
+  }
+}
+
+@keyframes animateLongLine3 {
   0% {
     width: 0rem;
   }
@@ -124,10 +213,10 @@
 
 @keyframes animateImage {
   0% {
-    transform: scale(1.42);
+    transform: translate(-50%, -50%) scale(1.42);
   }
 
   100% {
-    transform: scale(1);
+    transform: translate(-50%, -50%) scale(1);
   }
 }

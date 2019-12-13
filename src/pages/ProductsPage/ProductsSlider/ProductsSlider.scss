@@ -1,26 +1,41 @@
 @import "../../../styles/variables.scss";
 
 .productsslider {
-  display: flex;
-  align-items: center;
-  position: relative;
-  width: calc(100% - 4rem);
+  transform: translateY(-10rem);
+  margin-bottom: -10rem;
 
-  &__primary-block {
-    width: 100%;
-    height: 16.5rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: $color-primary;
-    z-index: -1;
+  @media screen and(min-width: 510px) {
+    transform: translateY(-15rem);
+    margin-bottom: -15rem;
+  }
+
+  @media screen and(min-width: 600px) {
+    transform: translateY(-10rem);
+    margin-bottom: -10rem;
+  }
+
+  @media screen and(min-width: 1500px) {
+    transform: translateY(-15rem);
+    margin-bottom: -15rem;
   }
 
   &__container {
     position: relative;
     background-color: #efefef;
     // padding: 2rem 5rem;
-    padding: 0 7rem;
+    padding: 0 3rem;
+
+    @media screen and(min-width: 450px) {
+      padding: 0 7rem;
+    }
+
+    @media screen and(min-width: 600px) {
+      padding: 0 3rem;
+    }
+
+    @media screen and(min-width: 900px) {
+      padding: 0 7rem;
+    }
   }
 
   &__viewport {
@@ -42,9 +57,17 @@
 
   &__slide {
     flex: 0 0 auto;
-    width: 20%;
+    width: 100%;
     position: relative;
     counter-increment: embla;
+
+    @media screen and(min-width: 600px) {
+      width: 33%;
+    }
+
+    @media screen and(min-width: 1200px) {
+      width: 20%;
+    }
   }
 
   &__slide-img {
@@ -69,10 +92,10 @@
     cursor: pointer;
     position: relative;
     padding: 0;
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.24rem;
+    margin-left: 0.24rem;
     border: 0;
     display: flex;
     align-items: center;
@@ -90,6 +113,13 @@
     &.is-selected:after {
       background-color: rgba($color-black, 0.72);
       opacity: 1;
+    }
+
+    @media screen and(min-width: 900px) {
+      width: 3rem;
+      height: 3rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
     }
   }
 
@@ -119,16 +149,55 @@
     }
 
     &__svg {
-      width: 3.5rem;
-      height: 3.5rem;
+      width: 2rem;
+      height: 2rem;
+
+      @media screen and(min-width: 450px) {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+
+      @media screen and(min-width: 600px) {
+        height: 2rem;
+        width: 2rem;
+      }
+
+      @media screen and(min-width: 900px) {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
     }
 
     &--prev {
-      left: 1rem;
+      left: -1rem;
+
+      @media screen and(min-width: 450px) {
+        left: 1rem;
+      }
+
+      @media screen and(min-width: 600px) {
+        left: -1rem;
+      }
+
+      @media screen and(min-width: 900px) {
+        left: 1rem;
+      }
     }
 
     &--next {
-      right: 1rem;
+      right: -1rem;
+
+      @media screen and(min-width: 450px) {
+        right: 1rem;
+      }
+
+      @media screen and(min-width: 600px) {
+        right: -1rem;
+      }
+
+      @media screen and(min-width: 900px) {
+        right: 1rem;
+      }
     }
   }
 }
