@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useContext } from "react";
+import React, { useRef } from "react";
 import { Portal, useOnClickOutside } from "../../utils";
 
 import "./Modal.scss";

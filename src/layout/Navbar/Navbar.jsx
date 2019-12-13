@@ -6,6 +6,7 @@ import "./Navbar.scss";
 import { ScrollContext } from "../../context/ScrollContext";
 
 import DesktopNav from "./DesktopNav/DesktopNav";
+import MobileNav from "./MobileNav/MobileNav";
 
 const Navbar = props => {
   //Determine rather to show navbar or not..
@@ -53,6 +54,7 @@ const Navbar = props => {
             </NavLink>
           </div>
           <DesktopNav />
+          <MobileNav />
         </div>
       </header>
     )

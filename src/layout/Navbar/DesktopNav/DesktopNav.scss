@@ -6,6 +6,11 @@
   font-weight: 300;
   font-size: 2rem;
   letter-spacing: 0.15rem;
+  display: none;
+
+  @media screen and(min-width: 1200px) {
+    display: block;
+  }
 
   &__ul {
     list-style: none;

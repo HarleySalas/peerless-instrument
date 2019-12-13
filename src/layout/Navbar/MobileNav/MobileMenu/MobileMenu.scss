@@ -1,0 +1,129 @@
+@import "../../../../styles/variables.scss";
+
+.mobile__menu {
+  &__foreground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color-black, 0.42);
+    animation: foregroundFade 1s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  }
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80vw;
+  height: 100vh;
+  background-color: $color-primary;
+  box-shadow: 0 0 2px 2px rgba($color-black, 0.15);
+  z-index: 2500;
+  animation: menuSlide 1s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__close {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+
+    &__line {
+      position: relative;
+      height: 3rem;
+      width: 3rem;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 3rem;
+        height: 2px;
+        background-color: $color-white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 3rem;
+        height: 2px;
+        background-color: $color-white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+    }
+  }
+
+  &__ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__li {
+    font-size: 2.2rem;
+    position: relative;
+    display: inline-block;
+    color: $color-white;
+    margin-bottom: 2rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: -0.3rem;
+      left: 0;
+      background-color: $color-white;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.3s ease-in-out;
+      border-radius: 10px;
+    }
+
+    &:hover:before {
+      visibility: visible;
+      transform: scaleX(1);
+    }
+  }
+}
+
+.active .mobile__menu__li::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+@keyframes menuSlide {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes foregroundFade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
