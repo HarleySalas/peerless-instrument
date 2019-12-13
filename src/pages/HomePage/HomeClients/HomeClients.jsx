@@ -9,8 +9,6 @@ import { ScrollContext } from "../../../context/ScrollContext";
 
 const HomeClients = () => {
   const scrollHeight = useContext(ScrollContext);
-  const blueRef = useRef(null);
-  const [blueAnimated, setBlueAnimated] = useState(false);
   const containerRef = useRef(null);
   const [containerAnimated, setContainerAnimated] = useState(false);
   const textRef = useRef(null);
@@ -35,23 +33,17 @@ const HomeClients = () => {
       }
     }
 
-    if (!blueAnimated) {
-      if (scrollHeight[0] > animatePosition2(blueRef)) {
-        setBlueAnimated(true);
-      }
-    }
-
     if (!textAnimated) {
       if (scrollHeight[0] > animatePosition3(textRef)) {
         setTextAnimated(true);
       }
     }
-  }, [scrollHeight, containerAnimated, blueAnimated, textAnimated]);
+  }, [scrollHeight, containerAnimated, textAnimated]);
 
   return (
     <>
       <section className="homeclients">
-        <div className={`homeclients__blue ${blueAnimated && "homeclients__blue--animated"}`} ref={blueRef} />
+        {/* <div className={`homeclients__blue ${blueAnimated && "homeclients__blue--animated"}`} ref={blueRef} /> */}
         {/* <div className="homeclients__container"> */}
         <div className={`container homeclients__container ${containerAnimated && "homeclients__container--animated"}`} ref={containerRef}>
           <h2 className="homeclients__heading">TRUSTED BY</h2>

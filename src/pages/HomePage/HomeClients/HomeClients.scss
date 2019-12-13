@@ -6,24 +6,7 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-
-  &__blue {
-    top: 0;
-    position: absolute;
-    width: calc(100vw - 5rem);
-    height: 11rem;
-    background-color: $color-primary;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    z-index: 1;
-
-    height: 0;
-    transition: all 1s ease;
-
-    &--animated {
-      height: 11rem;
-    }
-  }
+  transform: translateY(-10rem);
 
   &__container {
     z-index: 2;
@@ -31,8 +14,16 @@
     background-color: #efefef;
     flex-wrap: wrap;
     border-radius: 3px;
-    padding-bottom: 11rem;
+    // padding-bottom: 11rem;
     opacity: 0;
+    margin: 0 3rem;
+
+    padding: 5rem 0 3rem 0;
+
+    @media screen and(min-width: 900px) {
+      margin: 0;
+      padding: 7rem 0 5rem 0;
+    }
 
     &--animated {
       animation: fadeUp 1s ease forwards;
@@ -44,18 +35,55 @@
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.42rem;
-    margin: 11rem 0 3rem 0;
+    // margin: 11rem 0 3rem 0;
     opacity: 0.72;
+
+    margin-bottom: 3rem;
   }
 
   &__logo {
     // fill: rgb(24, 23, 32);
     fill: rgba($color-black, 1);
-    width: 19.8%;
-    padding: 4rem;
+    width: 50%;
+    padding: 2rem;
     opacity: 0.72;
     transition: all 0.24s ease;
     shape-rendering: geometricPrecision;
+
+    @media screen and(min-width: 420px) {
+      padding: 3rem;
+    }
+
+    @media screen and(min-width: 500px) {
+      padding: 4rem;
+    }
+
+    @media screen and(min-width: 600px) {
+      width: 33%;
+      padding: 2.5rem;
+    }
+
+    @media screen and(min-width: 700px) {
+      width: 33%;
+      padding: 2.5rem;
+    }
+
+    @media screen and(min-width: 800px) {
+      padding: 2.8rem;
+    }
+
+    @media screen and(min-width: 900px) {
+      width: 25%;
+    }
+
+    @media screen and(min-width: 1000px) {
+      padding: 3rem;
+    }
+
+    @media screen and(min-width: 1200px) {
+      width: 19.8%;
+      padding: 3rem;
+    }
 
     &:hover {
       opacity: 0.82;
@@ -64,7 +92,7 @@
 
   &__cta-text {
     text-align: center;
-    margin: 6rem auto 0 auto;
+    margin: 0rem auto 0 auto;
     width: 72%;
     opacity: 0;
 
